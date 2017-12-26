@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html> 
+
+<html> 
+<link href="style.css" rel="stylesheet"> 
+<head> 
+<script src="/script.js"></script> 
+<meta charset="utf-8"> 
+<title>Главное меню</title> 
+</head> 
+<body onload = get_JSON_and_print()> 
+
+<h1>Бригада<br>PMI-B5506<hr></h1> 
+
+<div> 
+<div id=blokLeft> 
+<h1 class=info>Состав бригады</h1> 
+<p class=info>Коноваленко Владислав Сергеевич</p> 
+<p class=info>Чупин Владислав Евгеньевич</p> 
+<p class=info>Номер телефона: +7-962-841-42-50</p> 
+<p class=info>E-mail's: fluaker75@gmail.com, koroed022@gmaikl</p> 
+
+</div> 
+
+
+
+<div id=blokRight> 
+
+</div> 
+
+
+</div> 
+
+
+<div id =form> 
+
+
+<form> 
+Name:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type = "text" name = "first_name", id="name1" required> <br><br> 
+Сomment:&nbsp&nbsp<textarea name="comment" cols="22" rows="4" id="comment1" required></textarea></p> 
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+<input type="button" onclick="get_JSON_and_print()" value="Отправить сообщение"/> 
+
+</form> 
+
+</div> 
+<br> 
+<div id=blokComments> 
+
+</div> 
+
+</body> 
+</html>
